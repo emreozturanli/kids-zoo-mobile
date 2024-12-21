@@ -22,6 +22,11 @@ const i18n = new I18n({
 			car: "Car",
 			train: "Train",
 			airplane: "Airplane",
+			helicopter: "Helicopter",
+			rocket: "Rocket",
+			balloon: "Balloon",
+			spaceship: "Spaceship",
+			submarine: "Submarine",
 			boat: "Boat",
 		},
 		settings: {
@@ -30,6 +35,9 @@ const i18n = new I18n({
 			about: "About",
 			about_text:
 				"A fun educational app for kids to learn about animals and vehicles through interactive sounds and images!",
+		},
+		favorites: {
+			empty: "No favorites yet. Add some by tapping the heart icon on items!",
 		},
 	},
 	ar: {
