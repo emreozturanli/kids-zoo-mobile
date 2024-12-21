@@ -4,8 +4,8 @@ import Slider from "@react-native-community/slider";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { useI18n } from "@/hooks/useI18n";
-import { AppSettingsContext } from "@/hooks/AppSettingsContext";
 import { useContext } from "react";
+import { AppSettingsContext } from "@/providers/AppSettingsProvider/AppSettingsContext";
 const languages = [
 	{ code: "en" as const, name: "English" },
 	{ code: "ar" as const, name: "العربية" },

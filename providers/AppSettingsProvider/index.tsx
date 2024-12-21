@@ -1,5 +1,6 @@
+import { AppSettingsContext } from "@/providers/AppSettingsProvider/AppSettingsContext";
+import { Language } from "@/providers/AppSettingsProvider/AppSettingsContext";
 import React, { useState } from "react";
-import { AppSettingsContext, type Language } from "./AppSettingsContext";
 
 export function AppSettingsProvider({ children }: { children: React.ReactNode }) {
 	const [language, setLanguage] = useState<Language>("en");

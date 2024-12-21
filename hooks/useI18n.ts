@@ -1,4 +1,4 @@
-import { AppSettingsContext } from "@/hooks/AppSettingsContext";
+import { AppSettingsContext } from "@/providers/AppSettingsProvider/AppSettingsContext";
 import { I18n } from "i18n-js";
 import { useCallback, useContext } from "react";
 import { I18nManager } from "react-native";
